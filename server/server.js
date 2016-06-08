@@ -4,7 +4,7 @@ import routes from './config/routes.js';
 
 const app = express();
 
-const port = 8888;
+const port = process.env.PORT || 3000;
 
 /* Initialize DB */
 import initDB from './config/init';
