@@ -5,8 +5,3 @@ npm-debug.log*
 
 # Dependency directory
 node_modules
-build/
-client/bundle.js
-client/*.eot
-client/*.otf
-client/*.woff
